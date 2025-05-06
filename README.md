@@ -22,6 +22,6 @@ second, the fen string
 
 It should look roughly like:
 
-```./your_binary [move] [fen string]
+```./your_binary [move] [fen string]```
 
 then the program will ask for the depth, just input 5 or 4, it should (probably) work
