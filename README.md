@@ -14,3 +14,14 @@ in the main directory do
 ```gcc src/*.c -lraylib```
 
 *I will probably add cmake support(but it is a distant future)
+
+# Usage
+this program takes two agruments , first 'B' or 'W' specifing the side to move
+
+second, the fen string
+
+It should look roughly like:
+
+```./your_binary [move] [fen string]
+
+then the program will ask for the depth, just input 5 or 4, it should (probably) work
