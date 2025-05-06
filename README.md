@@ -12,3 +12,5 @@ https://www.raylib.com/
 in the main directory do
 
 ```gcc src/*.c -lraylib```
+
+*I will probably add cmake support(but it is a distant future)
