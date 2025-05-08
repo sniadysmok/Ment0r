@@ -572,6 +572,12 @@ void king_moves(brd *br, vector_pos * from, vector_pos *to,int op, int my, int m
     }
 }
 void castling(brd *br,vector_pos *from, vector_pos *to, int checks, int op, int my, int my_king){
+    if(my_king != 60 && my == WH){
+        return;
+    }
+    if(my_king != 5 && my == BL){
+        return;
+    }
     if(checks == 0){
         if(my == WH){
             int allow_r = 1;
