@@ -575,7 +575,7 @@ void castling(brd *br,vector_pos *from, vector_pos *to, int checks, int op, int 
     if(my_king != 60 && my == WH){
         return;
     }
-    if(my_king != 5 && my == BL){
+    if(my_king != 4 && my == BL){
         return;
     }
     if(checks == 0){
