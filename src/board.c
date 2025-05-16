@@ -22,10 +22,10 @@ void init_board(brd * br, int pic[BRD_SIZE], int col[BRD_SIZE]){
         br->pieces[i] = pic[i];
         br->piece_colors[i] = col[i];
     }
-    // br->LB_castle=1;
-    // br->LW_castle=1;
-    // br->RB_castle=1;
-    // br->RW_castle=1;
+    br->LB_castle=0;
+    br->LW_castle=0;
+    br->RB_castle=0;
+    br->RW_castle=0;
 }
 pos_int add_pos(pos_int p1, pos_int p2){
     return (pos_int){p1.x+p2.x,p1.y+p2.y};
