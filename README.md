@@ -13,7 +13,7 @@ in the main directory do
 
 ```gcc src/*.c -lraylib```
 
-*I will probably add cmake support(but it is a distant future)
+*I will probably add cmake support(but it is a distant future) (DONT USE THE CURRENT CMAKELISTS.TXT FILE !)
 *This program works only on Linux currently.
 # Usage
 this program takes two agruments , first 'B' or 'W' specifing the side to move
